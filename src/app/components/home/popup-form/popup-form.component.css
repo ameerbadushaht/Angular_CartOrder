@@ -1,0 +1,35 @@
+
+.popup-form {
+  width: 280px;
+  background: #fff;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 0 3px 6px rgba(0, 0, 0, 0.04);
+  border-bottom-right-radius: 65px;
+  border-bottom: 8px solid #28abe1;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0.1);
+  top: 0;
+  left: 55%;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-form {
+  visibility: visible;
+  top: 30%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.form-list {
+  width: 100%;
+  padding: 25px;
+  font-size: 13px;
+}
+.form-list input {
+  width: 200px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  height: 30px;
+  margin: 10px 15px;
+}

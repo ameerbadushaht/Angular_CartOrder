@@ -1,0 +1,232 @@
+<div class="domain">
+
+  <div class="package">
+      <button class="btn"><img src="home icons/loginn.png" alt="" id="login-img">
+          Authentication</button>
+
+      <div class="login">
+          <p><a href="">Sign Up</a><span class="line3">|</span></p>
+          <p><a href="">I already have an account</a></p>
+          <button class="login-pass">
+              <img src="home icons/lock.png" alt="">
+              Login
+          </button>
+      </div>
+  </div>
+
+
+  <div class="package1">
+      <button class="btn"><img src="home icons/golobal.png" alt="">
+          Please assign a Domain Name to this package</button>
+
+      <div class="radio-buttons">
+          <label class="radio">
+              <input type="radio" name="register">Register a New Domain
+          </label><br>
+          <div id="check">
+              <input type="search" placeholder="Yor Domin.Com">
+              <button>CHECK AVAILABILITY</button>
+          </div>
+          <label class="radio1">
+              <input type="radio" name="register">I already have a Domain Name
+          </label>
+          <div id="assign">
+              <input type="search" placeholder="Yor Domin.Com">
+              <button>ASSIGN DOMAIN</button>
+          </div>
+      </div>
+
+  </div>
+
+
+
+  <div class="package2">
+      <div class="main">
+          <button class="btn"><img src="home icons/listing.png" alt="" id="login-img">
+              Your Oder Summary</button>
+
+          <div class="edit">
+              <img src="home icons/edit-icon.png" alt="">
+              <p><a href="#">Edit</a></p>
+          </div>
+      </div>
+
+      <div class="item-list">
+          <h3>raheem.bathootha.com</h3>
+
+          <div class="item-box">
+
+              <a href="#"><i class="fa-solid fa-trash"></i></a>
+
+              <div class="items">
+                  <div class="item-div">
+                      <img src="home icons/google-work-space.png" alt="">
+                  </div>
+                  <div class="item-div">
+                      <h2>Google Workspace</h2>
+                      <p>Business Starter(for <br> raheema.bathootha.com)</p>
+                      <div class="increment">
+                          <p id="email">Email Account:</p>
+                          <div class="wrapper">
+                              <span class="minus"  (click)="decrement()">-</span>
+                              <span class="num">{{ quantity }}</span>
+                              <span class="plus" (click)="increment()">+</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item-div">
+                      <button>1 Year</button>
+                  </div>
+                  <!--<div class="item-div">
+                      <p id="rupee">₹ 828.00</p>
+                  </div>-->
+              </div>
+          </div>
+
+
+          <div class="item-box">
+              <div class="items">
+                  <div class="item-div">
+                      <img src="home icons/storage.png" alt="">
+                  </div>
+                  <div class="item-div">
+                      <h2>Reseller Windows Hosting</h2>
+                      <p>R3 (for test.bathootha.com)</p>
+                      <p id="email">Unlimited Domains, 50 GB Space,<br> 1000 GB Transfer & Email
+                      </p>
+                  </div>
+                  <div class="item-div">
+                      <button>3 Year</button>
+                  </div>
+                  <!--<div class="item-div">
+                      <p id="rupee">₹ 71820.00</p>
+                  </div>-->
+              </div>
+          </div>
+
+          <div class="link">
+              <a href="#">BUY OTHER PRODUCTS</a>
+              <BUtton>CONTINUE</BUtton>
+          </div>
+      </div>
+  </div>
+
+
+
+
+  <div class="package4">
+      <div class="main">
+          <button class="btn"><img src="home icons/billing.png" alt="" id="login-img">Billing
+              Information</button>
+
+          <!--<div class="edit">
+  <img src="edit-icon.png" alt="">
+  <p><a href="#">Edit</a></p>
+  </div>-->
+      </div>
+      <div class="user-details-form">
+          <div class="user">
+
+              <input type="text" placeholder="First Name" required>
+
+          </div>
+          <div class="user">
+
+              <input type="text" placeholder="Last Name">
+          </div>
+          <div class="user1">
+              <textarea placeholder="Address"></textarea>
+          </div>
+          <div class="user">
+
+              <input type="text" placeholder="ZIP Code">
+          </div>
+          <div class="user">
+
+              <input type="text" placeholder="City">
+          </div>
+          <div class="user">
+
+              <input type="text" placeholder="State">
+          </div>
+          <div class="user2">
+
+              <select>
+                  <option value="Country">Country</option>
+              </select>
+          </div>
+
+          <div class="user">
+
+              <input type="text" placeholder="Phone Number">
+          </div>
+          <div class="user">
+
+              <input type="text" placeholder="Email ID">
+          </div>
+          <div class="user" id="admin">
+
+              <input type="text" placeholder="Admin Email ID">
+              <button id="gmail">@gmail.com</button>
+          </div>
+          <div class="user1">
+
+              <textarea placeholder="Notes"></textarea>
+          </div>
+          <div class="proceed-btn1">
+              <div class="check-box">
+                  <input type="checkbox" id="check1">
+                  <label for="check1" id="admin">Is admin</label>
+              </div>
+              <button id="proceed1">Proceed</button>
+          </div>
+      </div>
+
+  </div>
+
+
+  <div class="package3">
+      <button class="btn"><img src="home icons/pay-ment.png" alt="" id="pay">
+          Payment Options</button>
+
+      <div class="sub-head">
+          <h4>Please Choose Your Payment Methods</h4>
+          <p>This transaction is secured with an SSL certificate using 128-bit encryption</p>
+      </div>
+      <div class="payment-options">
+          <div class="option">
+              <input type="radio" name="payment" id="click">Netbanking/Debit Cards (Payu.in)
+          </div>
+          <div class="option">
+              <input type="radio" name="payment" id="click">CCAvenue-UPI, RuPay Debit, QR Code
+          </div>
+          <div class="option">
+              <input type="radio" name="payment" id="click">Payu.in (UPI and Rupay Debit)
+          </div>
+          <div class="option">
+              <input type="radio" name="payment" id="click">Credit Cards (Payu.in)
+          </div>
+          <div class="option">
+              <input type="radio" name="payment" id="click">Pay.pw: Credit Card Visa/MasterCard
+          </div>
+          <div class="option">
+              <input type="radio" name="payment" id="click">CCAvenue Netbanking/Debit Card
+          </div>
+      </div>
+
+      <div class="para">
+          <p>By clicking 'Pay securely, you are agreeing to Resellerclub <span id="color"> Terms
+                  of Service, Cancelation Policy </span>and you
+              acknowledge receipt of our</p>
+
+          <p id="para1"><span id="color">Privacy Notice.</span></p>
+
+          <button class="pay-btn" onclick="openPopup()"><img src="home icons/payment.png"
+                  alt="">PAY SECURELY</button>
+          <button class="pay-btn1" onclick="openForm()">PAY SECURELY</button>
+      </div>
+
+  </div>
+
+</div>
+

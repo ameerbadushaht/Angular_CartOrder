@@ -1,0 +1,141 @@
+.icon-bar {
+  width: 100%;
+  border: 1px solid rgb(142, 142, 142);
+  align-items: center;
+  margin: 10px 0;
+}
+.menu {
+  width: 30px;
+  height: auto;
+  display: none;
+  margin-left: 30px;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.ListIcon {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.ListIcon li {
+  display: flex;
+  gap: 5px;
+}
+.ListIcon li img {
+  width: 20px;
+  height: 20px;
+}
+.ListIcon li a {
+  color: black;
+  font-size: 12px;
+}
+.ListIcon li:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/*media query started*/
+@media (max-width: 999px) {
+  .menu {
+    width: 30px;
+    height: auto;
+    display: block;
+  }
+  .ListIcon {
+    display: block;
+    width: 100%;
+    background: #323c46;
+    position: absolute;
+    margin-left: -999px;
+    z-index: 2;
+    transition: 1.9s ease;
+  }
+  .ListIcon li {
+    padding: 15px 0;
+  }
+  .ListIcon li a {
+    color: #fff;
+  }
+  .active {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .menu {
+    width: 30px;
+    height: auto;
+    display: block;
+  }
+  .ListIcon {
+    display: block;
+    width: 100%;
+    background: #323c46;
+    position: absolute;
+    margin-left: -999px;
+    z-index: 2;
+    transition: 1.9s ease;
+  }
+  .ListIcon li {
+    padding: 15px 0;
+  }
+  .ListIcon li a {
+    color: #fff;
+  }
+  .active {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .menu {
+    width: 30px;
+    height: auto;
+    display: block;
+  }
+  .ListIcon {
+    display: block;
+    width: 100%;
+    background: #323c46;
+    position: absolute;
+    margin-left: -999px;
+    z-index: 2;
+    transition: 1.9s ease;
+  }
+  .ListIcon li {
+    padding: 15px 0;
+  }
+  .ListIcon li a {
+    color: #fff;
+  }
+  .active {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 499px) {
+  .menu {
+    width: 30px;
+    height: auto;
+    display: block;
+  }
+  .ListIcon {
+    display: block;
+    width: 100%;
+    background: #323c46;
+    position: absolute;
+    margin-left: -800px;
+    z-index: 2;
+    transition: 1.9s ease;
+  }
+  .ListIcon li {
+    padding: 15px 0;
+  }
+  .ListIcon li a {
+    color: #fff;
+  }
+  .active {
+    margin-left: 0;
+  }
+}

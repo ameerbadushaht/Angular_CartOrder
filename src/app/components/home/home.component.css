@@ -1,0 +1,174 @@
+.home-section {
+  width: 100%;
+}
+
+.listing-div {
+  width: 100%;
+  margin: 30px 0;
+  background-color: #e5edf0;
+  display: grid;
+  align-items: center;
+
+  /* background-color: #28abe1; */
+}
+
+.home {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.domain {
+  width: 50%;
+}
+
+.domain1 {
+  width: 50%;
+  height: 100vh;
+}
+
+
+
+/*media query started*/
+@media (max-width: 999px) {
+
+
+  .listing-div {
+      width: 100%;
+      margin: 30px 0;
+      background-color: #e5edf0;
+
+      /*background-color: #28abe1;*/
+  }
+
+  .home {
+      width: 100%;
+      padding: 30px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .domain {
+      width: 100%;
+  }
+
+  .domain1 {
+      width: 100%;
+      height: 100vh;
+  }
+
+}
+
+@media (max-width: 699px) {
+
+  .home-section {
+      width: 100%;
+  }
+
+  .listing-div {
+      width: 100%;
+      margin: 30px 0;
+      background-color: #e5edf0;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      /*background-color: #28abe1;*/
+  }
+
+  .home {
+      width: 100%;
+      padding: 30px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .domain {
+      width: 100%;
+  }
+
+  .domain1 {
+      width: 100%;
+  }
+
+
+}
+
+@media (max-width: 599px) {
+
+
+  /*home section starts*/
+  .home-section {
+      width: 100%;
+  }
+
+  .listing-div {
+      width: 100%;
+      margin: 30px 0;
+      background-color: #e5edf0;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      /*background-color: #28abe1;*/
+  }
+
+  .home {
+      width: 100%;
+      padding: 30px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .domain {
+      width: 100%;
+  }
+
+
+
+  .domain1 {
+      width: 100%;
+  }
+
+
+}
+
+@media (max-width: 499px) {
+
+
+  /*home section starts*/
+  .home-section {
+      width: 100%;
+  }
+
+  .listing-div {
+      width: 100%;
+      margin: 30px 0;
+      background-color: #e5edf0;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      /*background-color: #28abe1;*/
+  }
+
+  .home {
+      width: 100%;
+      padding: 30px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .domain {
+      width: 100%;
+  }
+
+  .domain1 {
+      width: 100%;
+  }
+
+
+}

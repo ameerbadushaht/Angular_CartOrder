@@ -1,0 +1,636 @@
+
+footer {
+  width: 100%;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+}
+.footer-div {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.logo-content {
+  width: 250px;
+  margin: 0 15px;
+}
+.logo-content img {
+  width: 150px;
+  height: auto;
+}
+.logo-content p {
+  font-size: 1.8vmin;
+  color: rgb(214, 214, 214);
+  font-weight: 350;
+}
+.vertical-line1 {
+  width: 1px;
+  height: 165px;
+  background-color: #d7e3e3;
+  margin-left: 5px;
+}
+
+.locate {
+  width: 200px;
+  margin-left: 20px;
+  margin: 0 15px;
+}
+.locate h3 {
+  color: rgb(205, 205, 205);
+  font-size: 14px;
+}
+.locate h4 {
+  color: rgb(214, 214, 214);
+  font-size: 12px;
+  font-weight: 350;
+}
+
+.navigation {
+  width: 150px;
+  margin: 0 14px;
+}
+.navigation .nav {
+  list-style: none;
+}
+.nav li {
+  border: none;
+  display: block;
+  margin-left: 20px;
+  padding: 3px 0;
+}
+.nav li a {
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav li a:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.explore-category {
+  width: 200px;
+}
+.explore-category .nav1 {
+  list-style: none;
+}
+.nav1 li {
+  margin-left: 20px;
+  padding-bottom: 3px;
+}
+.nav1 li a {
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav1 li a:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.logos {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px 0;
+}
+.diff-logo img {
+  width: 120px;
+}
+
+.social-media-icons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px 0;
+  border-top: 1px solid rgb(161, 161, 161);
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+.icon {
+  padding: 0 10px;
+}
+.icon a {
+  color: rgb(214, 214, 214);
+  font-size: 12px;
+}
+.icon img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.copyright {
+  width: 100%;
+  padding: 10px 0;
+}
+.copyright h5 {
+  color: rgb(214, 214, 214);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+
+
+/*media query started*/
+@media (max-width: 999px) {
+
+
+  .footer-div {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+  }
+  .logo-content {
+    width: 250px;
+    margin: 0 10px;
+  }
+  .logo-content img {
+    width: 150px;
+    height: auto;
+  }
+  .logo-content p {
+    font-size: 10px;
+    color: rgb(214, 214, 214);
+    font-weight: 350;
+  }
+  .vertical-line1 {
+    width: 1px;
+    height: 165px;
+    background-color: #d7e3e3;
+    margin-left: 5px;
+  }
+
+  .locate {
+    width: 200px;
+    margin-left: 20px;
+    margin: 0 10px;
+  }
+  .locate h3 {
+    color: rgb(205, 205, 205);
+    font-size: 12px;
+  }
+  .locate h4 {
+    color: rgb(214, 214, 214);
+    font-size: 10px;
+    font-weight: 350;
+  }
+
+  .navigation {
+    width: 150px;
+    margin: 0 10px;
+  }
+  .nav li {
+    margin-left: 15px;
+    padding: 3px 0;
+  }
+  .nav li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .nav1 li {
+    margin-left: 15px;
+    padding-bottom: 3px;
+  }
+  .nav1 li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .diff-logo img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 699px) {
+
+  footer {
+    width: 100%;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer-div {
+    width: 100vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  .logo-content {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .logo-content img {
+    width: 150px;
+    height: auto;
+  }
+  .logo-content p {
+    font-size: 12px;
+    color: rgb(214, 214, 214);
+    font-weight: 350;
+    padding-right: 30px;
+  }
+  .vertical-line1 {
+    display: none;
+  }
+
+  .locate {
+    width: 100%;
+    margin-left: 20px;
+    margin: 0 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .locate h3 {
+    color: rgb(205, 205, 205);
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  .locate h4 {
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+    font-weight: 350;
+  }
+
+  .navigation {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    padding: 10px 0;
+  }
+  .navigation .nav {
+    list-style: none;
+  }
+  .nav li {
+    margin-left: 0;
+    padding: 3px 0;
+  }
+  .nav li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .explore-category {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+    margin-left: 15px;
+  }
+  .explore-category .nav1 {
+    list-style: none;
+  }
+  .nav1 li {
+    margin-left: 0px;
+    padding: 5px 0;
+  }
+  .nav1 li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav1 li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .logos {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+  }
+  .diff-logo img {
+    width: 90px;
+  }
+
+  .social-media-icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .icon {
+    padding: 0 5px;
+  }
+  .icon a {
+    color: rgb(214, 214, 214);
+    font-size: 10px;
+  }
+  .icon img {
+    width: 12px;
+    margin-right: 0px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .copyright h5 {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 599px) {
+
+  footer {
+    width: 100%;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer-div {
+    width: 100vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  .logo-content {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .logo-content img {
+    width: 150px;
+    height: auto;
+  }
+  .logo-content p {
+    font-size: 12px;
+    color: rgb(214, 214, 214);
+    font-weight: 350;
+    padding-right: 30px;
+  }
+  .vertical-line1 {
+    display: none;
+  }
+
+  .locate {
+    width: 100%;
+    margin-left: 20px;
+    margin: 0 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .locate h3 {
+    color: rgb(205, 205, 205);
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  .locate h4 {
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+    font-weight: 350;
+  }
+
+  .navigation {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    padding: 10px 0;
+  }
+  .navigation .nav {
+    list-style: none;
+  }
+  .nav li {
+    margin-left: 0;
+    padding: 3px 0;
+  }
+  .nav li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .explore-category {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+    margin-left: 15px;
+  }
+  .explore-category .nav1 {
+    list-style: none;
+  }
+  .nav1 li {
+    margin-left: 0px;
+    padding: 5px 0;
+  }
+  .nav1 li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav1 li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .logos {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+  }
+  .diff-logo img {
+    width: 90px;
+  }
+
+  .social-media-icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .icon {
+    padding: 0 5px;
+  }
+  .icon a {
+    color: rgb(214, 214, 214);
+    font-size: 10px;
+  }
+  .icon img {
+    width: 12px;
+    margin-right: 0px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .copyright h5 {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 499px) {
+
+
+  footer {
+    width: 100%;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer-div {
+    width: 100vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  .logo-content {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .logo-content img {
+    width: 150px;
+    height: auto;
+  }
+  .logo-content p {
+    font-size: 12px;
+    color: rgb(214, 214, 214);
+    font-weight: 350;
+    padding-right: 30px;
+  }
+  .vertical-line1 {
+    display: none;
+  }
+
+  .locate {
+    width: 100%;
+    margin-left: 20px;
+    margin: 0 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+  }
+  .locate h3 {
+    color: rgb(205, 205, 205);
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  .locate h4 {
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+    font-weight: 350;
+  }
+
+  .navigation {
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    padding: 10px 0;
+  }
+  .navigation .nav {
+    list-style: none;
+  }
+  .nav li {
+    margin-left: 0;
+    padding: 3px 0;
+  }
+  .nav li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .explore-category {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #808080;
+    margin-left: 15px;
+  }
+  .explore-category .nav1 {
+    list-style: none;
+  }
+  .nav1 li {
+    margin-left: 0px;
+    padding: 5px 0;
+  }
+  .nav1 li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .nav1 li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .logos {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+  }
+  .diff-logo img {
+    width: 90px;
+  }
+
+  .social-media-icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .icon {
+    padding: 0 5px;
+  }
+  .icon a {
+    color: rgb(214, 214, 214);
+    font-size: 10px;
+  }
+  .icon img {
+    width: 12px;
+    margin-right: 0px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .copyright h5 {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+}
