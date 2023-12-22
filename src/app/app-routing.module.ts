@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './components/user/user.component';
 import { HomeComponent } from './components/home/home.component';
 import { OrderPrintComponent } from './components/order-print/order-print.component';
+import { INRComponent } from './components/order-print/inr/inr.component';
 
 
 

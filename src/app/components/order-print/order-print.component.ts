@@ -1,31 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CurrencyService } from 'src/app/services/currency.service';
+
+
+
 
 @Component({
   selector: 'app-order-print',
   templateUrl: './order-print.component.html',
   styleUrls: ['./order-print.component.css'],
 })
-export class OrderPrintComponent {
-  products = [
-    {
-      name: 'Google Workspace',
-      quantity: 2,
-      price: 888,
-      taxAmount: 500,
-      discountAmount: 25,
-      totalAmount: 1000,
-    },
-    {
-      name: 'xxx',
-      quantity: 3,
-      price: 785,
-      taxAmount: 0,
-      discountAmount: 10,
-      totalAmount: 0,
-    },
-  ];
+export class OrderPrintComponent
+{
 
-  print() {
-    window.print();
-  }
+  selectedCurrency: string | undefined;
+  constructor(private currencyService: CurrencyService) {}
+  ngOnInit() {
+    this.selectedCurrency = this.currencyService.getStoredCurrency();
+    console.log("selected is :::::::",this.selectedCurrency);
+}
 }

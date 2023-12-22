@@ -1,0 +1,92 @@
+<div class="home">
+  <div class="home-section" >
+    <div  id="invoiceTable">
+      <div class="order-details">
+        <div class="location">
+          <img src="icons/logo.png" alt="" id="techno" />
+          <p>
+            Dubai,UAE <br />
+            Phone: +123 4567890
+          </p>
+        </div>
+
+        <div class="location">
+          <h2>Invoice</h2>
+
+          <div class="order">
+            <div class="details">
+              <p id="font">Order</p>
+              <p id="font">Order date</p>
+              <p id="font">Order amount</p>
+            </div>
+
+            <div class="details">
+              <p>#2023XXXXXXX</p>
+              <p>00:00 pm, 12 oct,23</p>
+              <p>1000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shipping-details">
+        <table class="shipping">
+          <tr>
+            <th>Ship to</th>
+            <th>Order Method</th>
+          </tr>
+          <tr>
+            <td>
+              XYZ <br />
+              XY,Dubai,UAE <br />Email: N/A <br />Phone:1234556
+            </td>
+            <td>Cash on delivery</td>
+          </tr>
+        </table>
+          <table class="shipping">
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Tax Amount</th>
+                <th>Discount Amount</th>
+                <th>Total Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of products">
+                <td>{{ product.name }}</td>
+                <td>{{ product.quantity }}</td>
+                <td>AED {{ product.price }}</td>
+                <td>AED {{ product.taxAmount }}</td>
+                <td>AED {{ product.discountAmount }}</td>
+                <td>AED {{ product.totalAmount }}</td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- </table> -->
+
+        <div id="text"></div>
+        <div class="cost-details">
+          <ul class="total">
+            <li>Subtotal</li>
+            <li>Shipping cost</li>
+            <li>Tax</li>
+            <li>Total</li>
+          </ul>
+          <ul class="total">
+            <li>1300</li>
+            <li>20</li>
+            <li>70.00</li>
+            <li>1390</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="print">
+      <button id="print-btn" class="btn" (click)="print()"> Print</button>
+
+    </div>
+  </div>
+</div>

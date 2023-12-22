@@ -1,0 +1,625 @@
+
+
+.home{
+  width: 100%;
+  background-color: #e5edf0;
+  padding: 20px;
+
+}
+.home-section{
+  width: 80%;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 30px;
+  display: grid;
+  place-items: center;
+}
+
+#invoiceTable{
+  margin: 0%;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.order-details{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px;
+}
+p{
+  font-size: 1.8vmin;
+  padding-bottom: 5px;
+}
+#font{
+  font-weight: 560;
+}
+.order{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#techno{
+  width: 90px;
+  height: auto;
+  padding-bottom: 10px;
+}
+.location h2{
+  font-size: 3vmin;
+  padding-bottom: 10px;
+}
+
+.shipping-details{
+  width: 90%;
+  padding: 0 40px;
+  margin-top: 20px;
+}
+.shipping{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.shipping th{
+  border-right: 0;
+
+}
+.shipping th:first-child{
+  border-top-left-radius: 10px;
+}
+.shipping th:last-child{
+  border-top-right-radius: 10px;
+}
+.shipping td{
+  line-height: 20px;
+}
+
+table{
+  width: 100%;
+  border-spacing: 0;
+  margin: 20px auto;
+
+}
+table th:first-child{
+  border-top-left-radius: 10px;
+}
+table th:last-child{
+  border-top-right-radius: 10px;
+}
+th{
+  padding: 10px 15px;
+  text-align: left;
+  background-color: #28abe1;
+  color: #fff;
+  font-size: 1.8vmin;
+  font-weight: 400;
+  border-right: 1px solid #4abcec;
+}
+td{
+  padding: 10px 15px;
+  font-size: 1.7vmin;
+  font-weight: 400;
+  text-align: left;
+}
+
+.cost-details{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 50px;
+  margin-top: -30px;
+  padding-right: 20px;
+  border-bottom-right-radius: 65px;
+  border-bottom: 3px solid #28abe1;
+  padding-bottom: 25px;
+}
+
+.total li{
+  padding: 10px 0;
+  font-size: 1.8vmin;
+  text-align: right;
+  border-bottom: 1px solid #dedede;
+}
+
+
+
+.print{
+  width: 100%;
+  margin: 10px;
+  display: grid;
+  place-items: center;
+}
+.btn{
+  background-color: #28abe1;
+  color: #fff;
+  padding: 8px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #4abcec;
+}
+
+
+
+
+
+/*print view*/
+@media print{
+  .nav-bar, section, img, h3,.logo, .search-box, .contact, .icon-bar,.print,.btn, footer, .footer-div{
+      display: none;
+  }
+  #techno{
+      display: block;
+  }
+
+  body {
+    font-size: 24px; /* Adjust font size for print */
+  }
+
+  .home{
+      padding: 10px;
+  }
+
+  .home-section{
+      padding: 10px;
+  }
+
+  .shipping-details{
+      padding: 0 20px;
+      margin-top: 20px;
+  }
+
+  th{
+      color: #000;
+      padding: 10px 25px;
+      font-size: 1.7vmin;
+      font-weight: 600;
+      border-right: none;
+  }
+  td{
+      padding: 10px 25px;
+      font-size: 1.5vmin;
+  }
+
+  .cost-details{
+      border-bottom-right-radius: 0;
+      border-bottom: none;
+  }
+
+  .total li{
+      border-bottom: none;
+  }
+
+
+}
+
+/*print view*/
+
+/*home section ends*/
+
+
+
+
+
+
+
+/*media query started*/
+@media (max-width:699px) {
+
+  /*home*/
+
+  .order-details{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+  }
+  p{
+      font-size: 1.8vmin;
+      padding-bottom: 5px;
+  }
+  #font{
+      font-weight: 560;
+  }
+  .order{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  #techno{
+      width: 80px;
+      height: auto;
+      padding-bottom: 10px;
+  }
+  .location h3{
+      font-size: 3vmin;
+      padding-bottom: 10px;
+  }
+
+  .shipping-details{
+      width: 100%;
+      padding: 0 10px;
+      margin-top: 20px;
+  }
+  .shipping{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .shipping th{
+      border-right: 0;
+
+  }
+  .shipping th:first-child{
+      border-top-left-radius: 10px;
+  }
+  .shipping th:last-child{
+      border-top-right-radius: 10px;
+  }
+  .shipping td{
+      line-height: 20px;
+  }
+
+  table{
+      width: 100%;
+      border-spacing: 0;
+      margin: 20px auto;
+
+  }
+  table th:first-child{
+      border-top-left-radius: 10px;
+  }
+  table th:last-child{
+      border-top-right-radius: 10px;
+  }
+  th{
+      padding: 10px 10px;
+      text-align: left;
+      background-color: #28abe1;
+      color: #fff;
+      font-size: 1.8vmin;
+      font-weight: 400;
+      border-right: 1px solid #4abcec;
+  }
+  td{
+      padding: 10px 15px;
+      font-size: 1.7vmin;
+      font-weight: 400;
+      text-align: left;
+  }
+
+
+
+
+}
+
+@media (max-width:599px) {
+
+
+  /*home*/
+  .home{
+      width: 100%;
+      background-color: #e5edf0;
+      padding: 20px;
+
+  }
+  .home-section{
+      width: 80%;
+      background-color: #fff;
+      margin: 10px auto;
+      padding: 10px;
+  }
+
+  .order-details{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+  }
+  p{
+      font-size: 1.8vmin;
+      padding-bottom: 5px;
+  }
+  #font{
+      font-weight: 560;
+  }
+  .order{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  #techno{
+      width: 50px;
+      height: auto;
+      padding-bottom: 10px;
+  }
+  .location h3{
+      font-size: 3vmin;
+      padding-bottom: 10px;
+  }
+
+  .shipping-details{
+      width: 100%;
+      padding: 0 10px;
+      margin-top: 20px;
+  }
+  .shipping{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .shipping th{
+      border-right: 0;
+
+  }
+  .shipping th:first-child{
+      border-top-left-radius: 10px;
+  }
+  .shipping th:last-child{
+      border-top-right-radius: 10px;
+  }
+  .shipping td{
+      line-height: 20px;
+  }
+
+  table{
+      width: 100%;
+      border-spacing: 0;
+      margin: 20px auto;
+
+  }
+  table th:first-child{
+      border-top-left-radius: 10px;
+  }
+  table th:last-child{
+      border-top-right-radius: 10px;
+  }
+  th{
+      padding: 10px 3px;
+      text-align: left;
+      background-color: #28abe1;
+      color: #fff;
+      font-size: 1.8vmin;
+      font-weight: 400;
+      border-right: 1px solid #4abcec;
+  }
+  td{
+      padding: 10px 5px;
+      font-size: 1.7vmin;
+      font-weight: 400;
+      text-align: left;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:499px) {
+
+
+
+
+
+  /*home*/
+  .home{
+      width: 100%;
+      background-color: #e5edf0;
+      padding: 20px;
+
+  }
+  .home-section{
+      width: 80%;
+      background-color: #fff;
+      margin: 10px auto;
+      padding: 10px;
+  }
+
+  .order-details{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+  }
+  p{
+      font-size: 1.8vmin;
+      padding-bottom: 5px;
+  }
+  #font{
+      font-weight: 560;
+  }
+  .order{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  #techno{
+      width: 50px;
+      height: auto;
+      padding-bottom: 10px;
+  }
+  .location h3{
+      font-size: 3vmin;
+      padding-bottom: 10px;
+  }
+
+  .shipping-details{
+      width: 100%;
+      padding: 0 10px;
+      margin-top: 20px;
+  }
+  .shipping{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .shipping th{
+      border-right: 0;
+
+  }
+  .shipping th:first-child{
+      border-top-left-radius: 10px;
+  }
+  .shipping th:last-child{
+      border-top-right-radius: 10px;
+  }
+  .shipping td{
+      line-height: 20px;
+  }
+
+  table{
+      width: 100%;
+      border-spacing: 0;
+      margin: 20px auto;
+
+  }
+  table th:first-child{
+      border-top-left-radius: 10px;
+  }
+  table th:last-child{
+      border-top-right-radius: 10px;
+  }
+  th{
+      padding: 10px 3px;
+      text-align: left;
+      background-color: #28abe1;
+      color: #fff;
+      font-size: 1.8vmin;
+      font-weight: 400;
+      border-right: 1px solid #4abcec;
+  }
+  td{
+      padding: 10px 5px;
+      font-size: 1.7vmin;
+      font-weight: 400;
+      text-align: left;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:399px) {
+
+
+
+
+
+
+
+
+  /*home*/
+  .home{
+      width: 100%;
+      background-color: #e5edf0;
+      padding: 20px;
+
+  }
+  .home-section{
+      width: 100%;
+      background-color: #fff;
+      margin: 10px auto;
+      padding: 10px;
+  }
+
+  .order-details{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+  }
+  p{
+      font-size: 1.8vmin;
+      padding-bottom: 5px;
+  }
+  #font{
+      font-weight: 560;
+  }
+  .order{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  #techno{
+      width: 50px;
+      height: auto;
+      padding-bottom: 10px;
+  }
+  .location h3{
+      font-size: 3vmin;
+      padding-bottom: 10px;
+  }
+
+  .shipping-details{
+      width: 100%;
+      padding: 0 10px;
+      margin-top: 20px;
+  }
+  .shipping{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .shipping th{
+      border-right: 0;
+
+  }
+  .shipping th:first-child{
+      border-top-left-radius: 10px;
+  }
+  .shipping th:last-child{
+      border-top-right-radius: 10px;
+  }
+  .shipping td{
+      line-height: 20px;
+  }
+
+  table{
+      width: 100%;
+      border-spacing: 0;
+      margin: 20px auto;
+
+  }
+  table th:first-child{
+      border-top-left-radius: 10px;
+  }
+  table th:last-child{
+      border-top-right-radius: 10px;
+  }
+  th{
+      padding: 10px 3px;
+      text-align: left;
+      background-color: #28abe1;
+      color: #fff;
+      font-size: 1.9vmin;
+      font-weight: 400;
+      border-right: 1px solid #4abcec;
+  }
+  td{
+      padding: 10px 5px;
+      font-size: 1.8vmin;
+      font-weight: 400;
+      text-align: left;
+  }
+
+
+}

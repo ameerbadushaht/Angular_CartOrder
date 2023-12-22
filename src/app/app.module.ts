@@ -16,6 +16,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { UserComponent } from './components/user/user.component';
 import { AppRoutingModule } from './app-routing.module';
 import { OrderPrintComponent } from './components/order-print/order-print.component';
+import { NgxPrintModule } from 'ngx-print';
+import { INRComponent } from './components/order-print/inr/inr.component';
+import { USDComponent } from './components/order-print/usd/usd.component';
+import { AEDComponent } from './components/order-print/aed/aed.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,11 +37,16 @@ import { OrderPrintComponent } from './components/order-print/order-print.compon
     PopupFormComponent,
     FooterComponent,
     UserComponent,
-    OrderPrintComponent
+    OrderPrintComponent,
+    INRComponent,
+    USDComponent,
+    AEDComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPrintModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,15 +4,18 @@
           Your Cart Total
           <div class="line"></div>
       </div>
-      <div class="calc">
+      <div class="calc"  >
           <div class="total">
               <p>Sub Total</p>
-              <p id="rupees">₹ 828.00</p>
+              <p id="rupees">{{ getCurrencySymbol() }} 828.00</p>
           </div>
           <div class="details">
               <a href="#">Have a Coupon Code?</a>
               <p>Tax</p>
-              <h1>₹ 828.00</h1>
+              <!-- <h1>{{ currencyService.currencyChanged()}} 828.00</h1> -->
+              <!-- <h1>{{ selectedCurrency }} 828.00</h1> -->
+              <h1>{{ getCurrencySymbol() }} 828.00</h1>
+
 
           </div>
       </div>

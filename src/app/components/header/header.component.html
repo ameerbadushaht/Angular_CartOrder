@@ -3,8 +3,11 @@
       <option value="English">English</option>
   </select><span class="bar">|</span>
 
-  Currency: <img src="icons/flag.png" alt=""><select>
+  Currency: <img src="icons/flag.png" alt="">
+  <select (change)="onCurrencyChange($event)" [disabled]="isPrintPage()" [(ngModel)]=" this.currencyService.selectedCurrency">
+      <option value="INR">INR</option>
       <option value="USD">USD</option>
+      <option value="AED">AED</option>
   </select>
   <nav>
       <ul class="nav-link" #navLink>
